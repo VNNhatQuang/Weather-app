@@ -1,0 +1,89 @@
+/* TABLET */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    html {
+        width: 100%;
+        height: 100%;
+        display: grid;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 740px) {
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    #main {
+        height: 100%;
+        width: 100%;
+        display: inline-table;
+        background: unset;
+    }
+    #header {
+        font-size: 30px;
+    }
+    div#weather-main {
+        margin: 40px 0;
+    }
+    #weather-app {
+        padding: 140px 10px 0 10px;
+        width: unset;
+    }
+    #search-box {
+        font-size: 20px;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+    }
+    #search-box>p {
+        font-size: 20px;
+    }
+    input[type="text"] {
+        font-family: cursive;
+    }
+    input[type="text"]::placeholder {
+        font-size: 20px;
+    }
+    .search-icon {
+        margin-right: 4px;
+    }
+    div#weather-main {
+        display: block;
+        width: 100%;
+    }
+    .icon-weather {
+        text-align: center;
+    }
+    .wind-humidity {
+        display: block;
+        text-align: end;
+    }
+    .wind-speed {
+        float: left;
+    }
+    .country {
+        margin: 20px 0 40px 0;
+    }
+    .weather-detail {
+        display: block;
+        padding: 0px 60px 0px 60px;
+        text-align: center;
+    }
+    h1.temp {
+        margin: 0px 0px 10px;
+    }
+    p.temp-min-max {
+        margin-bottom: 28px;
+    }
+    h3.description {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="icon" href="./assets/img/icon/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <!-- Header -->
+        <div id="header">
+            <i class="fa-solid fa-cloud-sun"></i>
+            <p>weather app</p>
+        </div>
+        <!-- Weather app -->
+        <div id="weather-app">
+            <!-- Search box -->
+            <div id="search-box">
+                <p>Location</p>
+                <input type="text" placeholder="Enter city name">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <!-- Weather main -->
+            <div id="weather-main">
+                <div class="icon-weather">
+                    <img src="https://wowmart.vn/wp-content/uploads/2020/10/null-image.png" alt="">
+                    <div class="wind-humidity">
+                        <div class="wind-speed">
+                            <i class="fa-solid fa-wind"></i>
+                            <span>NULL</span>
+                        </div>
+                        <div class="humidity">
+                            <i class="fa-solid fa-droplet"></i>
+                            <span>NULL</span>
+                        </div>
+                    </div>
+                    <div class="country">
+                        <i class="fa-solid fa-location-dot"></i> Country: <span>NULL</span>
+                    </div>
+                </div>
+                <div class="weather-detail">
+                    <h1 class="temp">NULL</h1>
+                    <p class="temp-min-max">
+                        <span class="min">NULL</span>&deg;-
+                        <span class="max">NULL</span>&deg;
+                    </p>
+                    <h3 class="description">NULL</h3>
+                    <span class="date">NULL, NULL NULL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./assets/js/app.js"></script>
+    <script src="./assets/js/date.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: cursive;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fbeaeb;
+}
+
+#header {
+    width: 100%;
+    text-shadow: 2px 0px 4px #000;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    background: #1d8dff;
+    position: fixed;
+    top: 0px;
+    padding: 10px;
+    z-index: 1;
+    box-shadow: 0 0 7px rgb(0 0 0 / 60%);
+}
+
+#header>i {
+    display: inline-block;
+}
+
+#weather-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39.33px;
+    padding: 40px;
+    width: fit-content;
+}
+
+#search-box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 0 40px;
+}
+
+#search-box>p {
+    font-size: 14px;
+    color: grey;
+    font-style: italic;
+    text-transform: inherit;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    border-width: 0px 0px 2px;
+    border-top-style: initial;
+    border-top-color: initial;
+    border-right-style: initial;
+    border-right-color: initial;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-style: initial;
+    border-left-color: initial;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    font-family: cursive;
+}
+
+.search-icon {
+    color: #000;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.search-icon:hover {
+    opacity: 0.4;
+}
+
+div#weather-main {
+    display: flex;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px 0px;
+    padding: 40px;
+    background: #1d8dff;
+    color: #fff;
+}
+
+.icon-weather>img {
+    width: 140px;
+}
+
+.wind-humidity {
+    display: flex;
+}
+
+.wind-speed {
+    margin-right: 10px;
+}
+
+.humidity {
+    margin-left: 10px;
+}
+
+.country {
+    margin: 10px 0 0 0;
+}
+
+.weather-detail {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0px 40px 0px 80px;
+    align-items: flex-start;
+}
+
+h1.temp {
+    display: inline-block;
+    text-shadow: 2px 0px 2px #ccc;
+    font-size: 50px;
+    margin: 0px 0px 10px;
+}
+
+h3.description {
+    margin: 7px 0;
+    text-transform: uppercase;
+}
