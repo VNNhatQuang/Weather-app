@@ -42,7 +42,7 @@ var getIcon = icon => {
 
 var getWindSpeed = windSpeed => {
     var windSpeedDisplay = document.querySelector('.wind-speed>span');
-    windSpeedDisplay.innerHTML = `${windSpeed}km/h`;
+    windSpeedDisplay.innerHTML = `${windSpeed}m/s`;
 }
 
 var getHumidity = humidity => {
